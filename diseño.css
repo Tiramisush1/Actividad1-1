@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFE9CD;
+    font-family: 'Roboto', sans-serif;
+    margin: 10;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: #bfe9ff89;
+    
+}
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: rgb(255, 255, 255);
+    background-color: #F19CA2;
+}
+
+button:hover{
+    background-color: #B7D7D9;
+}
+
+#personas{
+    display:block;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    flex-direction:row;
+    height: 9cm;
+    background-image: linear-gradient(
+        0deg,
+        #f19ca2,
+        #c7f3f6
+    )
+    ,url("media/hero.jpg");
+    background-repeat: no-repeat;
+    background-size:7cm;
+    background-position: center center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+div.texto {
+    
+    margin: 20px auto;
+    color: rgb(0, 0, 0);
+    
+}
+
+div.texto img.izquierda {
+    float: left;
+    margin-right: 20px;
+    margin-block-start: 10px;
+}
+
+.letras{
+    width: 100%;
+    max-width: 700px;
+    height: 200px;
+}
+h4{
+    text-align:left;
+    color: rgb(0, 0, 0);
+}
